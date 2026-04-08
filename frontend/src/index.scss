@@ -1,0 +1,23 @@
+@import "./features/style/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+user-select: none;
+}
+
+body{
+
+background:var(--bg);
+color:var(--text);
+  font-family: "Play", sans-serif;
+
+}
+
+.app{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
